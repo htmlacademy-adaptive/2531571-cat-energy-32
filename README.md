@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Александр Миронов](https://up.htmlacademy.ru/adaptive/32/user/2531571).
-* Наставник: [Андрей Грачёвс](https://htmlacademy.ru/profile/angra).
+* Наставник: [Андрей Грачёв](https://htmlacademy.ru/profile/angra).
 
 ---
 
