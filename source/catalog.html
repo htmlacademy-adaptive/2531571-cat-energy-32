@@ -7,21 +7,28 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
-  <link rel="icon" href="favicon.ico"> <!-- 32×32 -->
+  <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
-  <link rel="icon" href="favicons/152.png"> <!-- 152×152 -->
-  <link rel="icon" href="favicons/256.png"> <!-- 256×256 -->
-  <link rel="icon" href="favicons/512.png"> <!-- 512×512 -->
+  <link rel="icon" href="favicons/152.png">
+  <link rel="icon" href="favicons/256.png">
+  <link rel="icon" href="favicons/512.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
 
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="#">
-      <img class="logo_image" src="" alt="Логотип">
-    </a>\
+      <picture>
+        <source type="image/png" width="60" height="50" media="(min-width:768px)" srcset="images/logo-image-tablet@1x.png 1x , images/logo-image-tablet@2x.png 2x">
+        <source type="image/png" width="33" height="38" media="(min-width:320px)" srcset="images/logo-image-mobile@1x.png 1x , images/logo-image-mobile@2x.png 2x">
+        <img class="logo-image" src="images/logo_image_dekstop@1x.png" srcset="images/logo-img@2x.png 2x" width="70" height="59" alt="Логотип-картинка">
+      </picture>
+      <picture>
+        <source type="image/png" width="101" height="18" media="(min-width:768px)" srcset="images/logo-text-tablet@1x.png 1x , images/logo-text-tablet@2x.png 2x">
+        <source type="image/png" width="101" height="18" media="(min-width:320px)" srcset="images/logo-text-mobile@1x.png 1x , images/logo-text-mobile@2x.png 2x">
+        <img class="logo-text" src="images/logo-text-dekstop@1x.png" width="118" height="21" srcset="images/logo-text-dekstop@2x.png 2x" alt="Логотип-текст">
+      </picture>
     </a>
-
     <nav class="breadcrumbs">
       <ul class="breadcrumbs__list">
         <li class="breadcrumbs__item">
@@ -43,7 +50,11 @@
       <ul class="catalog__list">
         <li class="catalog__item">
           <a class="catalog__link-logo" href="#">
-            <img class="catalog__img" src="#" alt="Изображение упаковки">
+            <picture>
+              <source type="image/png" width="161" height="172" media="(min-width: 768px)" srcset="images/chicken-pro-500-tablet@1x.png 1x , images/chicken-pro-500-tablet@2x.png 2x">
+              <source type="image/png" width="68" height="86" media="(min-width: 320px)" srcset="images/chicken-pro-500-mobile@1x.png 1x , images/chicken-pro-500-mobile@2x.png 2x">
+              <img class="catalog__img" width="161" height="172" src="images/chicken-pro-500-dekstop@1x.png" srcset="images/chicken-pro-500-dekstop@2x.png 2x" alt="Изображение упаковки">
+            </picture>
           </a>
           <a class="catalog__link" href="#">Cat Energy PRO 500 г</a>
           <div class="catalog__container">
@@ -71,7 +82,11 @@
 
         <li class="catalog__item">
           <a class="catalog__link-logo" href="#">
-            <img class="catalog__img" src="#" alt="Изображение упаковки">
+            <picture>
+              <source type="image/png" width="168" height="206" media="(min-width: 768px)" srcset="images/chicken-pro-1000-tablet@1x.png 1x , images/chicken-pro-1000-tablet@2x.png 2x">
+              <source type="image/png" width="68" height="86" media="(min-width: 320px)" srcset="images/chicken-pro-1000-mobile@1x.png 1x , images/chicken-pro-1000-mobile@2x.png 2x">
+              <img class="catalog__img" width="84" height="100" src="images/chicken-pro-1000-dekstop@1x.png" srcset="images/chicken-pro-1000-dekstop@2x.png 2x" alt="Изображение упаковки">
+            </picture>
           </a>
           <a class="catalog__link" href="#">Cat Energy PRO 1000 г</a>
           <div class="catalog__container">
@@ -99,7 +114,11 @@
 
         <li class="catalog__item">
           <a class="catalog__link-logo" href="#">
-            <img class="catalog__img" src="#" alt="Изображение упаковки">
+            <picture>
+              <source type="image/png" width="163" height="174" media="(min-width: 768px)" srcset="images/fish-pro-500-tablet@1x.png 1x , images/fish-pro-500-tablet@2x.png 2x">
+              <source type="image/png" width="68" height="78" media="(min-width: 320px)" srcset="images/fish-pro-500-mobile@1x.png 1x , images/fish-pro-500-mobile@2x.png 2x">
+              <img class="catalog__img" width="163" height="174" src="images/fish-pro-500-dekstop@1x.png" srcset="images/fish-pro-500-dekstop@2x.png 2x" alt="Изображение упаковки">
+            </picture>
           </a>
           <a class="catalog__link" href="#">Cat Energy PRO 500 г</a>
           <div class="catalog__container">
@@ -127,7 +146,11 @@
 
         <li class="catalog__item">
           <a class="catalog__link-logo" href="#">
-            <img class="catalog__img" src="#" alt="Изображение упаковки">
+            <picture>
+              <source type="image/png" width="168" height="200" media="(min-width: 768px)" srcset="images/fish-pro-1000-tablet@1x.png 1x , images/fish-pro-1000-tablet@2x.png 2x">
+              <source type="image/png" width="84" height="100" media="(min-width: 320px)" srcset="images/fish-pro-1000-mobile@1x.png 1x , images/fish-pro-1000-mobile@2x.png 2x">
+              <img class="catalog__img" width="172" height="196" src="images/fish-pro-1000-dekstop@1x.png" srcset="images/fish-pro-1000-dekstop@2x.png 2x" alt="Изображение упаковки">
+            </picture>
           </a>
           <a class="catalog__link" href="#">Cat Energy PRO 1000 г</a>
           <div class="catalog__container">
@@ -155,7 +178,11 @@
 
         <li class="catalog__item">
           <a class="catalog__link-logo" href="#">
-            <img class="catalog__img" src="#" alt="Изображение упаковки">
+            <picture>
+              <source type="image/png" width="161" height="171" media="(min-width: 768px)" srcset="images/buckwheat-slim-500-tablet@1x.png 1x , images/buckwheat-slim-500-tablet@2x.png 2x">
+              <source type="image/png" width="68" height="78" media="(min-width: 320px)" srcset="images/buckwheat-slim-500-mobile@1x.png 1x , images/buckwheat-slim-500-mobile@2x.png 2x">
+              <img class="catalog__img" width="161" height="171" src="images/buckwheat-slim-500-dekstop@1x.png" srcset="images/buckwheat-slim-500-dekstop@2x.png 2x" alt="Изображение упаковки">
+            </picture>
           </a>
           <a class="catalog__link" href="#">Cat Energy Slim 500 г</a>
           <div class="catalog__container">
@@ -183,7 +210,11 @@
 
         <li class="catalog__item">
           <a class="catalog__link" href="#">
-            <img class="catalog__img" src="#" alt="Изображение упаковки">
+            <picture>
+              <source type="image/png" width="168" height="200" media="(min-width: 768px)" srcset="images/buckwheat-slim-1000-tablet@1x.png 1x , images/buckwheat-slim-1000-tablet@2x.png 2x">
+              <source type="image/png" width="84" height="100" media="(min-width: 320px)" srcset="images/buckwheat-slim-1000-mobile@1x.png 1x , images/buckwheat-slim-1000-mobile@2x.png 2x">
+              <img class="catalog__img" width="172" height="196" src="images/buckwheat-slim-1000-dekstop@1x.png" srcset="images/buckwheat-slim-1000-dekstop@2x.png 2x" alt="Изображение упаковки">
+            </picture>
           </a>
           <a class="catalog__link" href="#">Cat Energy Slim 1000 г</a>
           <div class="catalog__container">
@@ -211,7 +242,11 @@
 
         <li class="catalog__item">
           <a class="catalog__link" href="#">
-            <img class="catalog__img" src="#" alt="Изображение упаковки">
+            <picture>
+              <source type="image/png" width="163" height="174" media="(min-width: 768px)" srcset="images/rice-slim-500-tablet@1x.png 1x , images/rice-slim-500-tablet@2x.png 2x">
+              <source type="image/png" width="72" height="84" media="(min-width: 320px)" srcset="images/rice-slim-500-mobile@1x.png 1x , images/rice-slim-500-mobile@2x.png 2x">
+              <img class="catalog__img" width="163" height="174" src="images/rice-slim-500-dekstop@1x.png" srcset="images/rice-slim-500-dekstop@2x.png 2x" alt="Изображение упаковки">
+            </picture>
           </a>
           <a class="catalog__link" href="#">Cat Energy Slim 500 г</a>
           <div class="catalog__container">
@@ -246,7 +281,7 @@
       </ul>
     </section>
 
-    <seciton class="additional">
+    <section class="additional">
       <h3 class="additional__title">Дополнительные товары</h3>
       <ul class="additional__list">
         <li class="additional__item">
@@ -294,9 +329,10 @@
         <p class="additional__desc">Закажите все<br>и получите чехол для<br>кота в подарок!</p>
       </div>
 
-    </seciton>
+    </section>
 
-    <seciton class="promotions">
+    <section class="promotions">
+      <h3 class="visually-hidden">Подписаться по e-mail</h3>
       <form class="promotions__form" method="post" action="https://echo.htmlacademy.ru">
         <label class="promotions__label">Акции и новинки
           <span class="visually-hidden">Ваш e-mail</span>
@@ -304,7 +340,7 @@
         </label>
         <button class="promotions__button" type="submit">ПОДПИСАТЬСЯ</button>
       </form>
-    </seciton>
+    </section>
 
     <section class="map">
       <div class="map__text">
@@ -318,7 +354,11 @@
     <section class="social-link">
       <h3 class="visually-hidden">Блок с ссылками на соцсети</h3>
       <a class="social-link__logo" href="#">
-        <img class="social-link__logo-cat-energy" src="#" alt="Логотип Cat Energy">
+        <picture>
+          <source type="image/png" width="128" height="24" media="(min-width: 768px)" srcset="images/footer-logo-tablet@1x.png 1x , images/footer-logo-tablet@2x.png 2x">
+          <source type="image/png" width="128" height="24" media="(min-width: 320px)" srcset="images/footer-logo-mobile@1x.png 1x , images/footer-logo-mobile@2x.png 2x">
+          <img class="social-link__logo-cat-energy" src="images/footer-logo-dekstop@1x.png" srcset="images/footer-logo-dekstop@2x.png 2x" width="128" height="24" alt="Логотип Cat Energy">
+        </picture>
       </a>
       <ul class="social-link__list">
         <li class="social-link__item">
@@ -338,7 +378,11 @@
         </li>
       </ul>
       <a class="social-link__academy-link" href="#">
-        <img class="social-link__logo-html-academy" src="#" alt="Логотип HTML Academy">
+        <picture>
+          <source type="image/png" width="168" height="37" media="(min-width: 768px)" srcset="images/html-academy-tablet@1x.png 1x , images/html-academy-tablet@2x.png 2x">
+          <source type="image/png" width="280" height="34" media="(min-width: 320px)" srcset="images/html-academy-mobile@1x.png 1x , images/html-academy-mobile@2x.png 2x">
+          <img class="social-link__logo-academy" src="images/html-academy-dekstop@1x.png" width="168" height="37" srcset="images/html-academy-dekstop@2x.png 2x" alt="Логотип HTML Academy">
+        </picture>
       </a>
     </section>
   </footer>
