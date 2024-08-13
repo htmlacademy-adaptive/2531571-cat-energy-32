@@ -19,7 +19,16 @@
   <header class="main-header">
 
     <a class="main-header__logo" href="#">
-      <img class="logo_image" src="" alt="Логотип">
+      <picture>
+        <source type="image/png" width="60" height="50" media="(min-width:768px)" srcset="images/logo-image-tablet@1x.png 1x , images/logo-image-tablet@2x.png 2x">
+        <source type="image/png" width="33" height="38" media="(min-width:320px)" srcset="images/logo-image-mobile@1x.png 1x , images/logo-image-mobile@2x.png 2x">
+        <img class="logo-image" src="images/logo_image_dekstop@1x.png" srcset="images/logo-img@2x.png 2x" width="70" height="59" alt="Логотип-картинка">
+      </picture>
+      <picture>
+        <source type="image/png" width="101" height="18" media="(min-width:768px)" srcset="images/logo-text-tablet@1x.png 1x , images/logo-text-tablet@2x.png 2x">
+        <source type="image/png" width="101" height="18" media="(min-width:320px)" srcset="images/logo-text-mobile@1x.png 1x , images/logo-text-mobile@2x.png 2x">
+        <img class="logo-text" src="images/logo-text-dekstop@1x.png" width="118" height="21" srcset="images/logo-text-dekstop@2x.png 2x" alt="Логотип-текст">
+      </picture>
     </a>
 
     <nav class="breadcrumbs">
@@ -41,6 +50,11 @@
       <p class="header-button__slogan">Занялся собой? Займись котом!</p>
       <a class="header-button__link" href="#">Подобрать программу</a>
     </div>
+    <picture>
+      <source type="image/png" width="709" height="609" media="(min-width: 768px)" srcset="images/hero-img-tablet@1x.png 1x , images/hero-img-tablet@2x.png 2x">
+      <source type="image/png" width="280" height="270" media="(min-width: 320px)" srcset="images/hero-img-mobile@1x.png 1x , images/hero-img-tablet@2x.png 2x">
+      <img class="hero-image" src="images/hero-img-dekstop@1x.png" srcset="images/hero-img-dekstop@2x.png 2x" width="552" height="499" alt="Изображение упаковки">
+    </picture>
 
   </header>
 
@@ -93,8 +107,16 @@
         <p class="success-story__time">60 дней <span class="success-story__time-text">затрачено времени</span></p>
         <p class="success-story__expenses">Затраты на питание:<span class="success-story__expenses-price">15 000 РУБ.</span></p>
         <div class="success-story__slider">
-          <img class="success-story__image success-story__image--before" src="#" alt="Борис до похудения был счастлив">
-          <img class="success-story__image success-story__image--after" src="#" alt="А теперь Борис худой">
+          <picture>
+            <source type="image/png" width="560" height="512" media="(min-width: 768px)" srcset="images/cat-before-tablet@1x.png 1x , images/cat-before-tablet@2x.png 2x">
+            <source type="image/png" width="280" height="256" media="(min-width: 320px)" srcset="images/cat-before-mobile@1x.png 1x , images/cat-before-mobile@2x.png 2x">
+            <img class="success-story__image-before" src="images/cat-before-dekstop@1x.png" srcset="images/cat-before-dekstop@2x.png 2x" width="560" height="512" alt="Борис до сушки">
+          </picture>
+          <picture>
+            <source type="image/png" width="560" height="512" media="(min-width: 768px)" srcset="images/cat-after-tablet@1x.png 1x , images/cat-after-tablet@2x.png 2x">
+            <source type="image/png" width="280" height="256" media="(min-width: 320px)" srcset="images/cat-after-mobile@1x.png 1x , images/cat-after-mobile@2x.png 2x">
+            <img class="success-story__image-after" src="images/cat-after-dekstop@1x.png" srcset="images/cat-after-dekstop@2x.png 2x" width="560" height="512" alt="Борис после сушки">
+          </picture>
           <button class="success-story__toggle" type="button" aria-label="Переключение картинок с котами до и после"></button>
         </div>
       </div>
@@ -111,7 +133,11 @@
     <section class="social-link">
       <h3 class="visually-hidden">Блок с ссылками на соцсети</h3>
       <a class="social-link__logo" href="#">
-        <img class="social-link__logo-cat-energy" src="#" alt="Логотип Cat Energy">
+        <picture>
+          <source type="image/png" width="128" height="24" media="(min-width: 768px)" srcset="images/footer-logo-tablet@1x.png 1x , images/footer-logo-tablet@2x.png 2x">
+          <source type="image/png" width="128" height="24" media="(min-width: 320px)" srcset="images/footer-logo-mobile@1x.png 1x , images/footer-logo-mobile@2x.png 2x">
+          <img class="social-link__logo-cat-energy" src="images/footer-logo-dekstop@1x.png" srcset="images/footer-logo-dekstop@2x.png 2x" width="128" height="24" alt="Логотип Cat Energy">
+        </picture>
       </a>
       <ul class="social-link__list">
         <li class="social-link__item">
@@ -131,7 +157,11 @@
         </li>
       </ul>
       <a class="social-link__academy-link" href="#">
-        <img class="social-link__logo-html-academy" src="#" alt="Логотип HTML Academy">\
+        <picture>
+          <source type="image/png" width="168" height="37" media="(min-width: 768px)" srcset="images/html-academy-tablet@1x.png 1x , images/html-academy-tablet@2x.png 2x">
+          <source type="image/png" width="280" height="34" media="(min-width: 320px)" srcset="images/html-academy-mobile@1x.png 1x , images/html-academy-mobile@2x.png 2x">
+          <img class="social-link__logo-academy" src="images/html-academy-dekstop@1x.png" width="168" height="37" srcset="images/html-academy-dekstop@2x.png 2x" alt="Логотип HTML Academy">
+        </picture>
       </a>
     </section>
   </footer>
