@@ -6,8 +6,23 @@
   color: #000000;
 }
 
-.meal-plan__item--pro{
+.meal-plan__item--slim::before {
+  background-image: url("../../icons/stack.svg#cat-slim");
+}
 
+.meal-plan__item::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 67px;
+  height: 50px;
+  display: block;
+}
+
+.meal-plan__item--pro::before {
+  background-image: url("../../icons/stack.svg#cat-weight");
 }
 
 .meal-plan__link--pro {

@@ -10,3 +10,30 @@
   line-height: 18px;
   color: #444444;
 }
+
+.benefits__item::before {
+  content: "";
+  background-color: #68b738;
+  background-repeat: no-repeat;
+  background-size: 30px 32px;
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+
+.benefits__item-one::before {
+  background-image: url("../../icons/stack.svg#icon-leaf");
+}
+
+.benefits__item-two::before {
+  background-image: url("../../icons/stack.svg#icon-recipe");
+}
+
+
+.benefits__item-three::before {
+  background-image: url("../../icons/stack.svg#icon-eat");
+}
+
+.benefits__item-four::before {
+  background-image: url("../../icons/stack.svg#icon-time");
+}
