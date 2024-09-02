@@ -1,11 +1,26 @@
-.social-link__item-vk {
-  background-image: url("../../icons/stack.svg#social-vk-mobile");
+.social__link--vk::before {
+  mask-image: url("../../icons/stack.svg#icon-vk");
 }
 
-.social-link__item-youtube {
-  background-image: url("../../icons/stack.svg#social-youtube-mobile");
+.social__link::before {
+  content: "";
+  background-color: #666666;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 22px;
+  display: block;
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
 }
 
-.social-link__item-tg {
-  background-image: url("../../icons/stack.svg#social-academy-mobile");
+
+.social__link--tg::before {
+  mask-image: url("../../icons/stack.svg#icon-tg");
+}
+
+.social__link--youtube::before {
+  mask-image: url("../../icons/stack.svg#icon-youtube");
 }
