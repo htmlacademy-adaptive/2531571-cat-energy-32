@@ -1,8 +1,22 @@
+.benefits {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 49px;
+}
+
+.benefits__wrapper {
+  padding: 0 20px;
+  min-width: 320px;
+}
+
 .benefits__title {
   font-family: "Oswald", sans-serif;
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .benefits__item {
@@ -37,4 +51,39 @@
 
 .benefits__item-four::before {
   background-image: url("../../icons/stack.svg#icon-time");
+}
+
+.benefits__list {
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.benefits__item-one {
+  display: grid;
+  grid-template-columns: 60px 220px;
+  grid-column-gap: 20px;
+}
+
+.benefits__item-two {
+  display: grid;
+  grid-template-columns: 60px 220px;
+  grid-column-gap: 20px;
+}
+
+.benefits__item-three {
+  display: grid;
+  grid-template-columns: 60px 220px;
+  grid-column-gap: 20px;
+}
+
+.benefits__item-four {
+  display: grid;
+  grid-template-columns: 60px 220px;
+  grid-column-gap: 20px;
 }

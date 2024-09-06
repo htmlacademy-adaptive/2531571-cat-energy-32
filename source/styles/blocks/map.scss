@@ -4,16 +4,20 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #111111;
+  margin: 0;
 }
 
 .map__address {
   font-size: 14px;
   line-height: 20px;
   color: #444444;
+  margin: 0;
 }
 
-.map__city {
-  font-size: 14px;
-  line-height: 20px;
-  color: #444444;
+.map__text {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 26px;
 }
