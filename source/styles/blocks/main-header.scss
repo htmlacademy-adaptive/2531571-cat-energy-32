@@ -25,26 +25,12 @@
 }
 
 @media (min-width: 768px) {
+  .main-header__wrapper {
+    min-width: 768px;
+    width: 100%;
+  }
+
   .main-header__menu {
     display: none;
-  }
-
-  .main-header {
-    margin: 25px 34px 65px 30px;
-  }
-
-  .main-header__wrapper {
-    display: flex;
-    align-items: center;
-  }
-
-  .main-header__logo {
-    margin: 0;
-    margin-right: 13px;
-  }
-
-  .main-header__logo-text {
-    margin: 0;
-    margin-right: 94px;
   }
 }

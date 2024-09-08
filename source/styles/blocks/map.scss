@@ -15,9 +15,17 @@
 }
 
 .map__text {
-  display: grid;
-  grid-template-columns: 140px 140px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 26px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 26px 20px;
+}
+
+.map__images {
+  width: 100%;
+}
+
+.map__images-mobile {
+  display: none;
+  border: none;
 }
