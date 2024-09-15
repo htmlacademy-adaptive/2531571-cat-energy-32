@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.meal-plan__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
 
 .meal-plan__link::after {
   content: "";
@@ -177,5 +181,10 @@
     border-bottom: none;
     margin: 0;
     width: 340px;
+  }
+
+  .meal-plan__wrapper {
+    width: 708px;
+    margin: 0 auto;
   }
 }

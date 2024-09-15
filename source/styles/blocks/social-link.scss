@@ -53,3 +53,36 @@
   padding: 20px 0;
   align-items: center;
 }
+
+
+@media (min-width: 768px) {
+  .social-link {
+    display: flex;
+    justify-content: space-between;
+    width: 708px;
+    margin: 0 auto;
+    padding: 55px 0;
+  }
+
+  .social__list {
+    align-items: center;
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .social__academy-wrapper {
+    width: 168px;
+    padding: 0;
+  }
+
+  .social-link__wrapper-logo {
+    margin-right: 25px;
+    align-self: center;
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .social__logo-text {
+    margin-right: 23px;
+  }
+}

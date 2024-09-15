@@ -16,4 +16,9 @@
     font-size: 18px;
     font-weight: 400;
   }
+
+  .nav-list__link--current {
+    border-bottom: 2px solid #68b738;
+    padding-bottom: 6px;
+  }
 }

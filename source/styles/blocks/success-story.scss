@@ -198,6 +198,8 @@
 
   .success-story__wrapper {
     height: 518px;
+    width: 708px;
+    margin: 0 auto;
   }
 
   .success-story__title {
@@ -260,8 +262,9 @@
   }
 
   .success-story__price {
-    position: absolute;
-    right: 30px;
+    position: relative;
+    right: -541px;
+    top: -163px;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
@@ -269,5 +272,30 @@
     color: #000000;
     width: 174px;
     text-align: right;
+  }
+
+  .success-story__slider picture {
+    width: 280px;
+    left: -138px;
+  }
+
+  .success-story__slider {
+    padding-bottom: 94px;
+  }
+
+  .success-story__image-after {
+    left: -280px;
+  }
+
+  .success-story__toggle {
+    height: 240px;
+  }
+
+  .success-story__toggle::after {
+    height: 510px;
+  }
+
+  .success-story__range-toggle {
+    top: 100%;
   }
 }

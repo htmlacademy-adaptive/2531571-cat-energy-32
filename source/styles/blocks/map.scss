@@ -5,6 +5,7 @@
   text-transform: uppercase;
   color: #111111;
   margin: 0;
+  width: 100%;
 }
 
 .map__address {
@@ -12,6 +13,7 @@
   line-height: 20px;
   color: #444444;
   margin: 0;
+  width: 100%;
 }
 
 .map__text {
@@ -24,4 +26,31 @@
 .map__images-mobile {
   display: none;
   border: none;
+}
+
+@media (min-width: 768px) {
+  .map__text {
+    justify-content: space-between;
+    padding: 61px 70px;
+  }
+
+  .map__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #111111;
+    width: 157px;
+  }
+
+  .map__address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    width: 157px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
