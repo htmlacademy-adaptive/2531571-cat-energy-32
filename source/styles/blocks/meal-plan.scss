@@ -67,7 +67,7 @@
   }
 }
 
-.meal-plan__item--pro::before {
+.meal-plan__weight--pro::before {
   background-image: url("../../icons/stack.svg#cat-weight");
 }
 
@@ -122,7 +122,7 @@
   height: 266px;
 }
 
-.meal-plan__item-weight {
+.meal-plan__weight {
   background-color: #f2f2f2;
   height: 266px;
 }
@@ -142,7 +142,7 @@
     position: relative;
   }
 
-  .meal-plan__item--pro {
+  .meal-plan__weight--pro {
     max-width: 710px;
     min-height: 372px;
     margin: 0 auto;
@@ -150,7 +150,7 @@
     position: relative;
   }
 
-  .meal-plan__item-weight::before {
+  .meal-plan__weight::before {
     width: 268px;
     height: 200px;
     left: 390px;
@@ -235,7 +235,7 @@
     padding-bottom: 34px;
   }
 
-  .meal-plan__item-weight::before {
+  .meal-plan__weight::before {
     width: 134px;
     height: 100px;
     left: 0;
@@ -244,7 +244,7 @@
     margin-left: 33px;
   }
 
-  .meal-plan {
-    margin-bottom: 71px;
+  .meal-plan__item {
+    margin-bottom: 41px;
   }
 }
