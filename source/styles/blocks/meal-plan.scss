@@ -171,6 +171,7 @@
     text-align: center;
     color: #000000;
     margin: 0;
+    align-items: center;
   }
 
   .meal-plan__descr {
@@ -186,5 +187,64 @@
   .meal-plan__wrapper {
     width: 708px;
     margin: 0 auto;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .meal-plan__item--slim {
+    width: 570px;
+    padding: 41px 61px 59px 52px;
+    display: block;
+  }
+
+  .meal-plan__item--pro {
+    width: 570px;
+    padding: 41px 61px 59px 52px;
+    display: block;
+  }
+
+  .meal-plan__item::before {
+    width: 100px;
+    height: 106px;
+    left: 0;
+    top: 0;
+    margin-left: 52px;
+    margin-top: 41px;
+  }
+
+  .meal-plan__wrapper {
+    width: 1220px;
+    margin: 0 auto;
+  }
+
+  .meal-plan__list {
+    flex-direction: row;
+    gap: 80px;
+  }
+
+  .meal-plan__title {
+    width: 206px;
+    margin-left: 162px;
+    margin-top: 32px;
+    margin-bottom: 73px;
+  }
+
+  .meal-plan__descr {
+    width: 457px;
+    padding-bottom: 34px;
+  }
+
+  .meal-plan__item-weight::before {
+    width: 134px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    margin-top: 47px;
+    margin-left: 33px;
+  }
+
+  .meal-plan {
+    margin-bottom: 71px;
   }
 }

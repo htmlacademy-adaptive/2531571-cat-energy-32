@@ -86,3 +86,13 @@
     margin-right: 23px;
   }
 }
+
+@media (min-width: 1440px) {
+  .social-link {
+    width: 1220px;
+  }
+
+  .social-link__wrapper-logo {
+    margin-right: 42px;
+  }
+}
